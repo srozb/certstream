@@ -16,7 +16,6 @@ RestartSec=2s
 LimitNOFILE=65536
 
 WorkingDirectory=/opt/certstream
-WatchdogSec=30s
 
 # Hardening
 NoNewPrivileges=yes
