@@ -1,0 +1,11 @@
+---
+match:
+  fuzzy:
+    - password
+    - authentication
+  suffix:
+    - .youtube.com
+    - .gmail.com
+log:
+  stdout: true
+  matched: output/output.json
